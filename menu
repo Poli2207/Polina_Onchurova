@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My name - Polina </title>
+        <link rel = " stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="icons8-компьютерная-безопасность-64.png">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul id = 'top-nav'>
+                    <li><a href="gal.html">Галерея</a></li>
+                    <li><a href="hob.html">Хобби</a></li>
+                    <li><a href="https://github.com/Crai-cry" target="_blank">GitHub</a></li>
+                    <li><a href="ach.html">Достижения</a></li>
+                    <li><a href="cont.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <H1 >Меня зовут Ончурова Полина Алексеевна</H1>
+            <section id="sec">
+                
+                <img id="main_foto" src="IMG_6073.jpg" alt="мое фото">
+                <p class="right">
+                    <b>Обо мне:</b><br>
+                    Студент 1 курса информционной безопасности<br>
+                    Ключевые навыки:<br>
+                    Пользователь:MS Office (Word, Excel, Power Point), Visual Stidio <br>
+                    Умение работать с: Python C++ HTML CSS<br>
+                    
+                </p>
+            </section>
+
+        </main>
+    </body>
+</html>
