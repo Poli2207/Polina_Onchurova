@@ -32,9 +32,16 @@
     <div id="gallery" class="tab-content">
         <h2>Галерея</h2>
         <div class="gallery-grid">
-            <img src="images/photo1.jpg" alt="Проект 1">
-            <img src="images/photo2.jpg" alt="Проект 2">
-            <img src="images/photo3.jpg" alt="Проект 3">
+            <img src="images/photo1.jpg" alt="Фото 1">
+            <img src="images/photo2.jpg" alt="Фото 2">
+            <img src="images/photo3.jpg" alt="Фото 3">
+            <img src="images/photo4.jpg" alt="Фото 4">
+            <img src="images/photo5.jpg" alt="Фото 5">
+            <img src="images/photo6.jpg" alt="Фото 6">
+            <img src="images/photo7.jpg" alt="Фото 7">
+            <img src="images/photo8.jpg" alt="Фото 8">
+            <img src="images/photo9.jpg" alt="Фото 9">
+            <img src="images/photo10.jpg" alt="Фото 10">
         </div>
     </div>
 
@@ -60,11 +67,14 @@
         <h2>Контакты</h2>
         <div class="social-buttons">
             <a href="https://t.me/polinnk_0" target="_blank" class="tg-button">
+                <img src="https://telegram.org/img/t_logo.png" alt="Telegram" width="20">
                 Telegram
             </a>
             <a href="https://vk.com/polinnk_0" target="_blank" class="vk-button">
+                <img src="https://vk.com/images/svg_icons/ic_head_logo.svg" alt="VK" width="20">
                 ВКонтакте
             </a>
+        </div>
     </div>
 
     <footer>
