@@ -42,25 +42,29 @@
         <h2>Хобби</h2>
         <p>В свободное время я люблю:</p>
         <ul>
-            <li>Фотографировать</li>
+            <li>Проводить время с друзьями</li>
             <li>Путешествовать</li>
-            <li>Играть на гитаре</li>
+            <li>Играть на компьютере</li>
         </ul>
     </div>
 
     <div id="achievements" class="tab-content">
         <h2>Достижения</h2>
         <ul>
-            <li>Победитель конкурса [Название] (2023)</li>
-            <li>Сертификат по [Навык] (2022)</li>
+            <li>1 место дивизионного этапа КЭС Баскет</li>
+            <li>Золотая медаль ГТО 2024 года</li>
         </ul>
     </div>
 
     <div id="contacts" class="tab-content">
         <h2>Контакты</h2>
-        <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
-        <p>Телефон: +7 (XXX) XXX-XX-XX</p>
-        <p>GitHub: <a href="https://github.com/ваш-логин">github.com/ваш-логин</a></p>
+        <div class="social-buttons">
+            <a href="https://t.me/polinnk_0" target="_blank" class="tg-button">
+                Telegram
+            </a>
+            <a href="https://vk.com/polinnk_0" target="_blank" class="vk-button">
+                ВКонтакте
+            </a>
     </div>
 
     <footer>
