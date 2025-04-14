@@ -1,39 +1,72 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My name - Polina </title>
-        <link rel = " stylesheet" href="style.css">
-        <link rel="icon" type="image/png" href="icons8-компьютерная-безопасность-64.png">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul id = 'top-nav'>
-                    <li><a href="gal.html">Галерея</a></li>
-                    <li><a href="hob.html">Хобби</a></li>
-                    <li><a href="https://github.com/Crai-cry" target="_blank">GitHub</a></li>
-                    <li><a href="ach.html">Достижения</a></li>
-                    <li><a href="cont.html">Контакты</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <H1 >Меня зовут Ончурова Полина Алексеевна</H1>
-            <section id="sec">
-                
-                <img id="main_foto" src="IMG_6073.jpg" alt="мое фото">
-                <p class="right">
-                    <b>Обо мне:</b><br>
-                    Студент 1 курса информционной безопасности<br>
-                    Ключевые навыки:<br>
-                    Пользователь:MS Office (Word, Excel, Power Point), Visual Stidio <br>
-                    Умение работать с: Python C++ HTML CSS<br>
-                    
-                </p>
-            </section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё Портфолио</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Привет, я Полина</h1>
+        <p>Студент 1 курса Информационной безопасности</p>
+    </header>
 
-        </main>
-    </body>
+    <!-- Навигация (вкладки) -->
+    <nav class="tabs">
+        <button class="tab-button active" onclick="openTab('about')">Обо мне</button>
+        <button class="tab-button" onclick="openTab('gallery')">Галерея</button>
+        <button class="tab-button" onclick="openTab('hobby')">Хобби</button>
+        <button class="tab-button" onclick="openTab('achievements')">Достижения</button>
+        <button class="tab-button" onclick="openTab('contacts')">Контакты</button>
+    </nav>
+
+    <!-- Содержимое вкладок -->
+    <div id="about" class="tab-content active">
+        <h2>Обо мне</h2>
+        <p>Привет! Меня зовут Полина, я учусь в ВЯТГУ на 1 курсе Информационной безопасности.</p>
+        <p>Я владею языками программирования Python и C++, а также технологиями веб-разработки HTML и CSS.</p>
+        <img src="images/photo.jpg" alt="Моё фото" width="200">
+    </div>
+
+    <div id="gallery" class="tab-content">
+        <h2>Галерея</h2>
+        <div class="gallery-grid">
+            <img src="images/photo1.jpg" alt="Проект 1">
+            <img src="images/photo2.jpg" alt="Проект 2">
+            <img src="images/photo3.jpg" alt="Проект 3">
+        </div>
+    </div>
+
+    <div id="hobby" class="tab-content">
+        <h2>Хобби</h2>
+        <p>В свободное время я люблю:</p>
+        <ul>
+            <li>Фотографировать</li>
+            <li>Путешествовать</li>
+            <li>Играть на гитаре</li>
+        </ul>
+    </div>
+
+    <div id="achievements" class="tab-content">
+        <h2>Достижения</h2>
+        <ul>
+            <li>Победитель конкурса [Название] (2023)</li>
+            <li>Сертификат по [Навык] (2022)</li>
+        </ul>
+    </div>
+
+    <div id="contacts" class="tab-content">
+        <h2>Контакты</h2>
+        <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+        <p>Телефон: +7 (XXX) XXX-XX-XX</p>
+        <p>GitHub: <a href="https://github.com/ваш-логин">github.com/ваш-логин</a></p>
+    </div>
+
+    <footer>
+        <p>© 2024 Моё Портфолио</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
